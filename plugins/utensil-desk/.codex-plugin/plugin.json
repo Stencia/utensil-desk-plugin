@@ -1,0 +1,36 @@
+{
+  "name": "utensil-desk",
+  "version": "0.2.3",
+  "description": "Connect to the Utensil Desk hosted MCP server for SEC filings, financial facts, insider transactions and 13F holdings, each value naming the filing it came from.",
+  "author": {
+    "name": "Stencia",
+    "email": "support@utensildesk.com",
+    "url": "https://utensildesk.com/"
+  },
+  "homepage": "https://utensildesk.com/docs/mcp",
+  "license": "MIT",
+  "keywords": ["sec", "edgar", "filings", "fundamentals", "mcp"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Utensil Desk",
+    "shortDescription": "SEC filings with their sources",
+    "longDescription": "SEC EDGAR data for US-listed companies above $1B market cap: filings by form, normalized financial facts (annual, quarterly and trailing twelve months), insider transactions from Forms 3, 4 and 5, Form 13F fund holdings and their quarter-to-quarter changes, Schedule 13D and 13G ownership reports, earnings report dates, per-share history and US economic release dates. Every value names the SEC filing it was read from, with a link to it.\n\nSign in with a Utensil Desk account. Every tool reads data; none changes anything.",
+    "developerName": "Stencia",
+    "category": "Finance",
+    "capabilities": ["Interactive"],
+    "websiteURL": "https://utensildesk.com/docs/mcp",
+    "privacyPolicyURL": "https://utensildesk.com/privacy",
+    "termsOfServiceURL": "https://utensildesk.com/api-terms",
+    "supportURL": "https://utensildesk.com/docs/mcp#mcp-help",
+    "brandColor": "#5c8edc",
+    "brandColorDark": "#5c8edc",
+    "logo": "./assets/logo.png",
+    "composerIcon": "./assets/logo.png",
+    "defaultPrompt": [
+      "List Apple's last four 10-Q filings with links.",
+      "Show this company's insider sales that the filings do not explain.",
+      "What revenue did this company report for its last eight quarters, and from which filing?"
+    ]
+  }
+}

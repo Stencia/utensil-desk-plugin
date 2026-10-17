@@ -1,0 +1,13 @@
+{
+  "name": "utensil-desk",
+  "version": "0.2.3",
+  "description": "Connect to the Utensil Desk hosted MCP server for SEC filings, financial facts, insider transactions and 13F holdings, each value naming the filing it came from.",
+  "author": {
+    "name": "Stencia",
+    "email": "support@utensildesk.com",
+    "url": "https://utensildesk.com/"
+  },
+  "homepage": "https://utensildesk.com/docs/mcp",
+  "license": "MIT",
+  "keywords": ["sec", "edgar", "filings", "fundamentals", "mcp"]
+}
