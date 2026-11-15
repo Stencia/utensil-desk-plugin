@@ -1,7 +1,7 @@
 {
   "name": "utensil-desk",
-  "version": "0.2.3",
-  "description": "Connect to the Utensil Desk hosted MCP server for SEC filings, financial facts, insider transactions and 13F holdings, each value naming the filing it came from.",
+  "version": "0.2.4",
+  "description": "Research stocks through the Utensil Desk hosted MCP server using financials, company guidance, filings and fund ownership, with dated source evidence and explicit coverage gaps.",
   "author": {
     "name": "Stencia",
     "email": "support@utensildesk.com",
@@ -28,7 +28,7 @@
     "logo": "./assets/logo.png",
     "composerIcon": "./assets/logo.png",
     "defaultPrompt": [
-      "List Apple's last four 10-Q filings with links.",
+      "Help me understand NBIS: its latest results, funding needs, outlook and risks.",
       "Show this company's insider sales that the filings do not explain.",
       "What revenue did this company report for its last eight quarters, and from which filing?"
     ]
