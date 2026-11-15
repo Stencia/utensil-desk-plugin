@@ -1,6 +1,6 @@
 {
   "name": "utensil-desk",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Research stocks through the Utensil Desk hosted MCP server using financials, company guidance, filings and fund ownership, with dated source evidence and explicit coverage gaps.",
   "author": {
     "name": "Stencia",
